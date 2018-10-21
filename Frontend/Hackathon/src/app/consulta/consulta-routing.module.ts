@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ConsultaComponent } from './consulta.component';
 
 const routes: Routes = [
-  {
-    path: 'consulta',
-    loadChildren: './consulta/consulta.module#ConsultaModule'
-  }
+    {
+        path: '',
+        component: ConsultaComponent
+    }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class ConsultaRoutingModule {
+}

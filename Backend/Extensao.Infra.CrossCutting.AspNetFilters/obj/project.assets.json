@@ -4636,23 +4636,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jessica-Note2\\.nuget\\packages\\": {},
+    "C:\\Users\\Jéssica\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jessica-Note2\\Documents\\GitHub\\hackathon\\Backend\\Extensao.Infra.CrossCutting.AspNetFilters\\Extensao.Infra.CrossCutting.AspNetFilters.csproj",
+      "projectUniqueName": "C:\\Users\\Jéssica\\Documents\\GitHub\\hackathon\\Backend\\Extensao.Infra.CrossCutting.AspNetFilters\\Extensao.Infra.CrossCutting.AspNetFilters.csproj",
       "projectName": "Extensao.Infra.CrossCutting.AspNetFilters",
-      "projectPath": "C:\\Users\\Jessica-Note2\\Documents\\GitHub\\hackathon\\Backend\\Extensao.Infra.CrossCutting.AspNetFilters\\Extensao.Infra.CrossCutting.AspNetFilters.csproj",
-      "packagesPath": "C:\\Users\\Jessica-Note2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jessica-Note2\\Documents\\GitHub\\hackathon\\Backend\\Extensao.Infra.CrossCutting.AspNetFilters\\obj\\",
+      "projectPath": "C:\\Users\\Jéssica\\Documents\\GitHub\\hackathon\\Backend\\Extensao.Infra.CrossCutting.AspNetFilters\\Extensao.Infra.CrossCutting.AspNetFilters.csproj",
+      "packagesPath": "C:\\Users\\Jéssica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jéssica\\Documents\\GitHub\\hackathon\\Backend\\Extensao.Infra.CrossCutting.AspNetFilters\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jessica-Note2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jéssica\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

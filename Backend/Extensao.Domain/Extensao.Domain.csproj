@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Queries\Escola.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Commands\Inputs\" />
     <Folder Include="Enums\" />
     <Folder Include="Custos\" />

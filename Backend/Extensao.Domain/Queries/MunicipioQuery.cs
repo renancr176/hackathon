@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Extensao.Domain.Queries
 {
-    class MunicipioQuery
+    public class MunicipioQuery
     {
-        public int MyProperty { get; set; }
+        public int CodigoMunicipio { get; set; }
+        public string Cidade { get; set; }
     }
 }

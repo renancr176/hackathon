@@ -24,4 +24,3 @@ C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\n
 C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.AssemblyInfo.cs
 C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.dll
 C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.pdb
-C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.csprojAssemblyReference.cache

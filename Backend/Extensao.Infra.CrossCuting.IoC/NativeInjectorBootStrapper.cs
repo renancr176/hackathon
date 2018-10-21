@@ -25,7 +25,9 @@ namespace Extensao.Infra.CrossCuting.IoC
             services.AddTransient<IRankingEscolaRepository, RankingEscolaRepository> ();
             #endregion
 
-
+            #region TipoEnsino
+            services.AddTransient<ITipoEnsinoRepository, TipoEnsinoRepository>();
+            #endregion
         }
     }
 }

@@ -69,7 +69,7 @@ namespace Extensao.Services.Api
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Extensão - V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hackathon - V1");
             });
         }
     }

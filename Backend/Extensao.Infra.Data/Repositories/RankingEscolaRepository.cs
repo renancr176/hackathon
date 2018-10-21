@@ -21,7 +21,7 @@ namespace Extensao.Infra.Data.Repositories
             _uow = uow;
         }
 
-        public IEnumerable<RankingEscolaQuery> ConsultarAnoUf(int ano, string uf)
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUf(int ano, int codigoTipoEnsino, string uf)
         {
             return _context
                 .Connection
@@ -30,12 +30,13 @@ namespace Extensao.Infra.Data.Repositories
                     new
                     {
                         Ano = ano,
+                        CodigoTipoEnsino = codigoTipoEnsino,
                         UF = uf
                     },
                     commandType: CommandType.StoredProcedure);
         }
 
-        public IEnumerable<RankingEscolaQuery> ConsultarAnoUfMunicipio(int ano, string uf, int codigoMunicipio)
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUfMunicipio(int ano, int codigoTipoEnsino, string uf, int codigoMunicipio)
         {
             return _context
                 .Connection
@@ -45,22 +46,40 @@ namespace Extensao.Infra.Data.Repositories
                     {
                         Ano = ano,
                         UF = uf,
+                        CodigoTipoEnsino = codigoTipoEnsino,
                         CodigoMunicipio = codigoMunicipio
                     },
 
                     commandType: CommandType.StoredProcedure);
         }
 
-        public IEnumerable<RankingEscolaQuery> ConsultarAnoUfMunicipioInclusao(int ano, string uf, int codigoMunicipio, bool inclusao)
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUfInclusao(int ano, int codigoTipoEnsino, string uf, bool inclusao)
         {
             return _context
                 .Connection
                 .Query<RankingEscolaQuery>(
                     "dbo.spGetRankingEscolas",
-
                     new
                     {
                         Ano = ano,
+                        UF = uf,
+                        CodigoTipoEnsino = codigoTipoEnsino,
+                        TemNee = inclusao
+                    },
+
+                    commandType: CommandType.StoredProcedure);
+        }
+
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUfMunicipioInclusao(int ano, int codigoTipoEnsino, string uf, int codigoMunicipio, bool inclusao)
+        {
+            return _context
+                .Connection
+                .Query<RankingEscolaQuery>(
+                    "dbo.spGetRankingEscolas",
+                    new
+                    {
+                        Ano = ano,
+                        CodigoTipoEnsino = codigoTipoEnsino,
                         UF = uf,
                         CodigoMunicipio = codigoMunicipio,
                         TemNee = inclusao

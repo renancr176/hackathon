@@ -15,13 +15,13 @@ namespace Extensao.Services.Api.Configurations
                 c.SwaggerDoc("v1",
                     new Info
                     {
-                        Title = "API Extensão",
+                        Title = "API Hackathon",
                         Version = "v1",
-                        Description = "API REST criada com o ASP.NET Core  versão 2.1.3 é referente a API Extensão",
+                        Description = "API REST criada com o ASP.NET Core  versão 2.1.3",
                         Contact = new Contact
                         {
-                            Name = "TI - Sistemas - Barão de Mauá",
-                            Url = "https://www.baraodemaua.com.br"
+                            Name = "",
+                            Url = ""
                         }
                     });
 

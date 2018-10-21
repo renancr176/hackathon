@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensao.Infra.CrossCutting
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensao.Infra.CrossCuting.IoC", "Extensao.Infra.CrossCuting.IoC\Extensao.Infra.CrossCuting.IoC.csproj", "{E34E5836-4BEB-4625-97BF-BADEF8F59175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensao.Services.Api", "Extensao.Services.Api\Extensao.Services.Api.csproj", "{59657288-FE9F-4DC3-BF86-183033BB0ABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensao.Services.Api", "Extensao.Services.Api\Extensao.Services.Api.csproj", "{59657288-FE9F-4DC3-BF86-183033BB0ABB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

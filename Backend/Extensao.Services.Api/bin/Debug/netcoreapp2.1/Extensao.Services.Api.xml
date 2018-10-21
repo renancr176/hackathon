@@ -4,71 +4,54 @@
         <name>Extensao.Services.Api</name>
     </assembly>
     <members>
+        <member name="M:Extensao.Services.Api.Controllers.EstadoController.ObterTodosEstados">
+            <summary>
+             Retorna todos os estados
+            </summary>
+            <remarks>Retorna todos os estados</remarks>
+            <returns>MunicipioQuery</returns>
+        </member>
         <member name="M:Extensao.Services.Api.Controllers.HomeController.Get">
             <summary>
             Api Aluno Barão de Mauá
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoAtividadeController.ObtemTipoAtividadePorId(System.Guid)">
+        <member name="M:Extensao.Services.Api.Controllers.MunicipioController.ObterMunicipiosPorUF(System.String)">
             <summary>
-             Retorna o registro do tipo de atividade
+             Retorna todos os municipios por estado
             </summary>
-            <remarks>Retorna o registro do tipo de atividade</remarks>
-            <param name="id">ID Tipo Atividade</param>
-            <returns>TipoAtividadeQuery</returns>
+            <remarks>Retorna todos os municipios por estado</remarks>
+            <param name="uf">UF</param>
+            <returns>MunicipioQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoAtividadeController.ObterTodosTipoAtividade">
+        <member name="M:Extensao.Services.Api.Controllers.MunicipioController.ObterTodosMunicipios">
             <summary>
-             Retorna a lista de tipo de atividade
+             Retorna todos os municipios
             </summary>
-            <remarks>Retorna a lista de tipo de atividade</remarks>        
-            <returns>TipoAtividadeQuery</returns>
+            <remarks>Retorna todos os municipios</remarks>        
+            <returns>MunicipioQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoInscricaoController.ObtemTipoInscricaoPorId(System.Guid)">
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoUf(System.Int32,System.String)">
             <summary>
-             Retorna descrição do tipo de inscrição
+             Retorna ano e estado
             </summary>
-            <remarks>Retorna uma lista com a descrição e Id dos tipos de incrição</remarks>
-            <param name="id">ID Tipo Inscrição</param>
-            <returns>TipoInscricaoQuery</returns>
+            <remarks>Retorna ano e estado</remarks>
+            <returns>RankingEscolaQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoInscricaoController.ObterTodosTipoInscricao">
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoUfMunicipio(System.Int32,System.String,System.Int32)">
             <summary>
-             Retorna descrição do tipo de inscrição
+             Retorna ano e estado e municipio
             </summary>
-            <remarks>Retorna uma lista com a descrição e Id dos tipos de incrição</remarks>        
-            <returns>TipoInscricaoQuery</returns>
+            <remarks>Retorna ano e estado e municipio</remarks>
+            <returns>RankingEscolaQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoInscricaoController.ObterTodosTipoInscricao(System.String)">
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoUfMunicipioInclusao(System.Int32,System.String,System.Int32,System.Boolean)">
             <summary>
-             Retorna os rascunhos do tipo de inscrição de um usuário
+             Retorna ano e estado e municipio e inclusao
             </summary>
-            <remarks>Retorna os rascunhos do tipo de inscrição de um usuário</remarks>
-            <param name="aliasUsuario">Alias do Usuário</param>
-            <returns>TipoInscricaoQuery</returns>
-        </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoInscricaoController.Post(Extensao.Domain.Proposta.Commands.Inputs.InserirTipoInscricaoCommand)">
-            <summary>
-             Insere novo tipo de inscrição
-            </summary>
-            <remarks>Insere novo tipo de inscrição</remarks>        
-            <returns>IActionResult</returns>
-        </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoInscricaoController.PostRasculho(Extensao.Domain.Proposta.Commands.Inputs.RascunhoTipoInscricaoCommand)">
-            <summary>
-             Insere ou atualiza um rascunho do tipo de inscrição
-            </summary>
-            <remarks>Insere ou atualiza um rascunho do tipo de inscrição</remarks>        
-            <returns>IActionResult</returns>
-        </member>
-        <member name="M:Extensao.Services.Api.Controllers.TipoInscricaoController.Put(System.Guid,Extensao.Domain.Proposta.Commands.Inputs.AlterarTipoInscricaoCommand)">
-            <summary>
-             Altera um tipo de inscrição
-            </summary>
-            <remarks>Altera um tipo de inscrição</remarks>
-            <param name="id">ID Tipo Inscrição</param>
-            <returns>IActionResult</returns>
+            <remarks>Retorna ano e estado e municipio e inclusao</remarks>
+            <returns>RankingEscolaQuery</returns>
         </member>
     </members>
 </doc>

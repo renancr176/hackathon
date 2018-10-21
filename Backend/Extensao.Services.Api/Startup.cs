@@ -38,28 +38,7 @@ namespace Extensao.Services.Api
             // Configurações do Swagger
             services.AddSwaggerConfig();
 
-            if (_env.IsProduction())
-            {
-                //Microsoft SQL Server
-                Settings.ConnectionString = Configuration.GetConnectionString("Production");
-
-                //MongoDB
-                Settings.MongoDBConnectionString = Configuration.GetSection("MongoDBConnectionStrings")
-                    .GetSection("Production").GetSection("ConnectionString").Value;
-                Settings.MongoDBDataBase = Configuration.GetSection("MongoDBConnectionStrings")
-                    .GetSection("Production").GetSection("DataBase").Value;
-            }
-            else
-            {
-                //Microsoft SQL Server
-                Settings.ConnectionString = Configuration.GetConnectionString("Develop");
-
-                //MongoDB
-                Settings.MongoDBConnectionString = Configuration.GetSection("MongoDBConnectionStrings")
-                    .GetSection("Develop").GetSection("ConnectionString").Value;
-                Settings.MongoDBDataBase = Configuration.GetSection("MongoDBConnectionStrings")
-                    .GetSection("Develop").GetSection("DataBase").Value;
-            }
+            Settings.ConnectionString = Configuration.GetConnectionString("Production");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

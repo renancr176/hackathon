@@ -22,3 +22,15 @@ C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Domain\obj\De
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.csproj.CopyComplete
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.dll
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\bin\Debug\netcoreapp2.1\Extensao.Domain.deps.json
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\bin\Debug\netcoreapp2.1\Extensao.Domain.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\bin\Debug\netcoreapp2.1\Extensao.Domain.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\bin\Debug\netcoreapp2.1\Extensao.Shared.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\bin\Debug\netcoreapp2.1\Extensao.Shared.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.AssemblyInfoInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.AssemblyInfo.cs
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.csproj.CopyComplete
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Domain\obj\Debug\netcoreapp2.1\Extensao.Domain.csprojAssemblyReference.cache

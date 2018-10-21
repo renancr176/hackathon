@@ -26,3 +26,17 @@ C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Infra.Data\ob
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.csproj.CopyComplete
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.dll
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Infra.Data.deps.json
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Infra.Data.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Infra.Data.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Domain.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Shared.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Domain.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\bin\Debug\netcoreapp2.1\Extensao.Shared.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.AssemblyInfo.cs
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.csproj.CopyComplete
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.Data\obj\Debug\netcoreapp2.1\Extensao.Infra.Data.csprojAssemblyReference.cache

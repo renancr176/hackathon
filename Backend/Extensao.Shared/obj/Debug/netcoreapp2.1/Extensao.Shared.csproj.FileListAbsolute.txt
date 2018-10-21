@@ -16,3 +16,12 @@ C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Shared\obj\De
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.AssemblyInfo.cs
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.dll
 C:\Users\RenanPC\Documents\GitHub\ModeloExemploDotNetCore\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\bin\Debug\netcoreapp2.1\Extensao.Shared.deps.json
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\bin\Debug\netcoreapp2.1\Extensao.Shared.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\bin\Debug\netcoreapp2.1\Extensao.Shared.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.AssemblyInfoInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.AssemblyInfo.cs
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Shared\obj\Debug\netcoreapp2.1\Extensao.Shared.csprojAssemblyReference.cache

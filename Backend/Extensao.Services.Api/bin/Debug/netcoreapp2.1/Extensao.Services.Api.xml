@@ -32,26 +32,40 @@
             <remarks>Retorna todos os municipios</remarks>        
             <returns>MunicipioQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoUf(System.Int32,System.String)">
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoTipoEnsinoUf(System.Int32,System.Int32,System.String)">
             <summary>
              Retorna ano e estado
             </summary>
             <remarks>Retorna ano e estado</remarks>
             <returns>RankingEscolaQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoUfMunicipio(System.Int32,System.String,System.Int32)">
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoTipoEnsinoUfMunicipio(System.Int32,System.Int32,System.String,System.Int32)">
             <summary>
              Retorna ano e estado e municipio
             </summary>
             <remarks>Retorna ano e estado e municipio</remarks>
             <returns>RankingEscolaQuery</returns>
         </member>
-        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoUfMunicipioInclusao(System.Int32,System.String,System.Int32,System.Boolean)">
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoTipoEnsinoUfInclusao(System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+             Retorna ano e estado e municipio
+            </summary>
+            <remarks>Retorna ano e estado e municipio</remarks>
+            <returns>RankingEscolaQuery</returns>
+        </member>
+        <member name="M:Extensao.Services.Api.Controllers.RankingEscolaController.ConsultarAnoTipoEnsinoUfMunicipioInclusao(System.Int32,System.Int32,System.String,System.Int32,System.Boolean)">
             <summary>
              Retorna ano e estado e municipio e inclusao
             </summary>
             <remarks>Retorna ano e estado e municipio e inclusao</remarks>
             <returns>RankingEscolaQuery</returns>
+        </member>
+        <member name="M:Extensao.Services.Api.Controllers.TipoEnsinoController.ObterTodosTiposEnsino">
+            <summary>
+             Retorna todos os estados
+            </summary>
+            <remarks>Retorna todos os estados</remarks>
+            <returns>TipoEnsinoQuery</returns>
         </member>
     </members>
 </doc>

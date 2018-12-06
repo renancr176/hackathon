@@ -25,8 +25,8 @@ namespace Extensao.Services.Api.Controllers
         /// <remarks>Retorna ano e estado</remarks>
         /// <returns>RankingEscolaQuery</returns>
         [HttpGet]
-        [Route("v1/ranking_escolas/{ano:int}/{uf}")]
-        public IEnumerable<RankingEscolaQuery> ConsultarAnoUf(int ano, string uf) => _rankingEscolaController.ConsultarAnoUf(ano, uf);
+        [Route("v1/ranking_escolas/{ano:int}/{codigoTipoEnsino:int}/{uf}")]
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUf(int ano, int codigoTipoEnsino, string uf) => _rankingEscolaController.ConsultarAnoTipoEnsinoUf(ano, codigoTipoEnsino, uf);
 
         /// <summary>
         ///  Retorna ano e estado e municipio
@@ -34,8 +34,17 @@ namespace Extensao.Services.Api.Controllers
         /// <remarks>Retorna ano e estado e municipio</remarks>
         /// <returns>RankingEscolaQuery</returns>
         [HttpGet]
-        [Route("v1/ranking_escolas/{ano:int}/{uf}/{codigoMunicipio:int}")]
-        public IEnumerable<RankingEscolaQuery> ConsultarAnoUfMunicipio(int ano, string uf, int codigoMunicipio) => _rankingEscolaController.ConsultarAnoUfMunicipio(ano, uf, codigoMunicipio);
+        [Route("v1/ranking_escolas/{ano:int}/{codigoTipoEnsino:int}/{uf}/{codigoMunicipio:int}")]
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUfMunicipio(int ano, int codigoTipoEnsino, string uf, int codigoMunicipio) => _rankingEscolaController.ConsultarAnoTipoEnsinoUfMunicipio(ano, codigoTipoEnsino, uf, codigoMunicipio);
+
+        /// <summary>
+        ///  Retorna ano e estado e municipio
+        /// </summary>
+        /// <remarks>Retorna ano e estado e municipio</remarks>
+        /// <returns>RankingEscolaQuery</returns>
+        [HttpGet]
+        [Route("v1/ranking_escolas/{ano:int}/{codigoTipoEnsino:int}/{uf}/{inclusao:bool}")]
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUfInclusao(int ano, int codigoTipoEnsino, string uf, bool inclusao) => _rankingEscolaController.ConsultarAnoTipoEnsinoUfInclusao(ano, codigoTipoEnsino, uf, inclusao);
 
         /// <summary>
         ///  Retorna ano e estado e municipio e inclusao
@@ -43,8 +52,8 @@ namespace Extensao.Services.Api.Controllers
         /// <remarks>Retorna ano e estado e municipio e inclusao</remarks>
         /// <returns>RankingEscolaQuery</returns>
         [HttpGet]
-        [Route("v1/ranking_escolas/{ano:int}/{uf}/{codigoMunicipio:int}/{inclusao:bool}")]
-        public IEnumerable<RankingEscolaQuery> ConsultarAnoUfMunicipioInclusao(int ano, string uf, int codigoMunicipio, bool inclusao) => _rankingEscolaController.ConsultarAnoUfMunicipioInclusao(ano, uf, codigoMunicipio, inclusao);
+        [Route("v1/ranking_escolas/{ano:int}/{codigoTipoEnsino:int}/{uf}/{codigoMunicipio:int}/{inclusao:bool}")]
+        public IEnumerable<RankingEscolaQuery> ConsultarAnoTipoEnsinoUfMunicipioInclusao(int ano, int codigoTipoEnsino, string uf, int codigoMunicipio, bool inclusao) => _rankingEscolaController.ConsultarAnoTipoEnsinoUfMunicipioInclusao(ano, codigoTipoEnsino, uf, codigoMunicipio, inclusao);
 
 
     }

@@ -6,6 +6,10 @@ import {HttpModule} from "@angular/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { ApiHackathonService } from './services/api-hackthon.service';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,10 +17,14 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
     FormsModule,
     HttpModule
+=======
+    HttpClientModule
+>>>>>>> Jessica
   ],
-  providers: [],
+  providers: [ApiHackathonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7,3 +7,12 @@ C:\Code\srvtfs\FaculdadeCollection\Extensao\Back End\Extensao\Extensao.Infra.Cro
 C:\Code\srvtfs\FaculdadeCollection\Extensao\Back End\Extensao\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.AssemblyInfo.cs
 C:\Code\srvtfs\FaculdadeCollection\Extensao\Back End\Extensao\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.dll
 C:\Code\srvtfs\FaculdadeCollection\Extensao\Back End\Extensao\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\bin\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.deps.json
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\bin\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\bin\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.pdb
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.csprojAssemblyReference.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.csproj.CoreCompileInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.AssemblyInfoInputs.cache
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.AssemblyInfo.cs
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.dll
+C:\Users\Jéssica\Documents\GitHub\hackathon\Backend\Extensao.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.1\Extensao.Infra.CrossCutting.AspNetFilters.pdb
